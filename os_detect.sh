@@ -1,6 +1,9 @@
 #!/bin/bash
 
+########################################################
 # Determine OS platform
+########################################################
+
 UNAME=$(uname | tr "[:upper:]" "[:lower:]")
 PYCMD=$(cat <<-EOM
 	import platform
@@ -38,3 +41,11 @@ echo "$DISTRO"
 ## version : #1 SMP Tue Aug 13 18:39:59 UTC 2019
 ## machine : x86_64
 ## processor : x86_64
+
+
+########################################################
+# References
+########################################################
+# - https://unix.stackexchange.com/questions/92199/how-can-i-reliably-get-the-operating-systems-name/92218#92218
+# - https://docs.python.org/2/library/platform.html
+# - http://linuxmafia.com/faq/Admin/release-files.html
