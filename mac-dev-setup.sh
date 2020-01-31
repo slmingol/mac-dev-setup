@@ -86,6 +86,7 @@ BREW_PKGS=(
   git
   git-crypt
   git-extras
+  github/gh/gh
   glide
   gnu-indent
   gnu-sed
