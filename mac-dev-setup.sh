@@ -147,6 +147,7 @@ for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
 
 # Install casks
 BREW_CASKS=(
+  balenaetcher
   calibre
   clamxav
   discord
