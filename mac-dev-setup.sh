@@ -158,6 +158,7 @@ BREW_CASKS=(
   google-chrome
   keybase
   pingplotter
+  podman
   postman
   slack
   spectacle
