@@ -92,6 +92,7 @@ BREW_PKGS=(
   gnu-sed
   gnu-tar
   gnu-time
+  gnu-units
   gnu-which
   gnuplot
   gnutls
