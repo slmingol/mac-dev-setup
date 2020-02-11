@@ -112,6 +112,7 @@ BREW_PKGS=(
   jp
   jq
   kubectl
+  kubectx
   kubespy
   lastpass-cli
   less
@@ -177,6 +178,7 @@ BREW_TAPS=(
   drone/drone,drone
   jmespath/jmespath,jp
   johanhaleby/kubetail,kubetail
+  kube-score/tap/kube-score,kube-score
   wallix/awless,awless
 )
 for tap in ${BREW_TAPS[@]};do
