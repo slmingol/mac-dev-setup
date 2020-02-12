@@ -109,6 +109,7 @@ BREW_PKGS=(
   iperf3
   iproute2mac
   irssi
+  jid
   jp
   jq
   kubectl
