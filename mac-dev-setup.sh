@@ -47,6 +47,9 @@ case $key in
     ;;
 esac
 
+# tests for a GitHub Personal Access Token (PAT) for use against their API
+[[ -e ~/.config/brew_gh_token ]] && export HOMEBREW_GITHUB_API_TOKEN=$(cat ~/.config/brew_gh_token)
+
 # Temporarily disable gatekeeper to prevent installations from failing
 sudo spctl --master-disable
 
@@ -101,6 +104,7 @@ BREW_PKGS=(
   grep
   gzip
   haste-client
+  hey
   htop
   hub
   iftop
@@ -123,6 +127,7 @@ BREW_PKGS=(
   neofetch
   nmap
   nomad
+  openssl
   p7zip
   packer
   psgrep
@@ -137,6 +142,7 @@ BREW_PKGS=(
   stress
   terraform
   terraform_landscape
+  thefuck
   tree
   vagrant-completion
   vault
