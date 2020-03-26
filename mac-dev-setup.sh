@@ -85,6 +85,7 @@ BREW_PKGS=(
   ed
   findutils
   gawk
+  gifsicle
   gist
   git
   git-crypt
