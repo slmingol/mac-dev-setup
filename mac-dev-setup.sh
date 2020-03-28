@@ -76,6 +76,7 @@ BREW_PKGS=(
   bash-git-prompt
   binutils
   brew-cask-completion
+  cdrtools
   consul
   coreutils
   cowsay
