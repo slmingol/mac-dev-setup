@@ -118,6 +118,7 @@ BREW_PKGS=(
   jid
   jp
   jq
+  kind
   kubectl
   kubectx
   kube-score/tap/kube-score
@@ -143,6 +144,7 @@ BREW_PKGS=(
   speedtest-cli
   stern
   stress
+  task
   terraform
   terraform_landscape
   thefuck
