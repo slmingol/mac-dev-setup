@@ -169,8 +169,10 @@ BREW_CASKS=(
   docker-toolbox
   fing
   firefox
+  gitify
   google-chrome
   keybase
+  openvpn-connect
   pingplotter
   podman
   postman
