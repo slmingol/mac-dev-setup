@@ -41,6 +41,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   bash-git-prompt
   binutils
   brew-cask-completion
+  cdrtools
   consul
   coreutils
   cowsay
@@ -50,15 +51,18 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   ed
   findutils
   gawk
+  gifsicle
   gist
   git
   git-crypt
   git-extras
+  github/gh/gh
   glide
   gnu-indent
   gnu-sed
   gnu-tar
   gnu-time
+  gnu-units
   gnu-which
   gnuplot
   gnutls
@@ -67,6 +71,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   grep
   gzip
   haste-client
+  hey
   htop
   hub
   iftop
@@ -75,9 +80,13 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   iperf3
   iproute2mac
   irssi
+  jid
   jp
   jq
+  kind
   kubectl
+  kubectx
+  kube-score/tap/kube-score
   kubespy
   lastpass-cli
   less
@@ -87,6 +96,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   neofetch
   nmap
   nomad
+  openssl
   p7zip
   packer
   psgrep
@@ -99,8 +109,10 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   speedtest-cli
   stern
   stress
+  task
   terraform
   terraform_landscape
+  thefuck
   tree
   vagrant-completion
   vault
@@ -114,6 +126,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
 ### Casks
 ```
 $ sed -n '/BREW_CASKS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_CASKS|)'
+  balenaetcher
   calibre
   clamxav
   discord
@@ -121,9 +134,12 @@ $ sed -n '/BREW_CASKS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_CASKS|)'
   docker-toolbox
   fing
   firefox
+  gitify
   google-chrome
   keybase
+  openvpn-connect
   pingplotter
+  podman
   postman
   slack
   spectacle
