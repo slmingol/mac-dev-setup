@@ -106,6 +106,7 @@ BREW_PKGS=(
   grep
   gzip
   haste-client
+  helm
   hey
   htop
   hub
