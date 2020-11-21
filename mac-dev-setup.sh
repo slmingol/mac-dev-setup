@@ -86,12 +86,12 @@ BREW_PKGS=(
   findutils
   fortune
   gawk
+  gh
   gifsicle
   gist
   git
   git-crypt
   git-extras
-  github/gh/gh
   glide
   gnu-indent
   gnu-sed
