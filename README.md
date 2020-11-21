@@ -50,6 +50,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   diffutils
   ed
   findutils
+  fortune
   gawk
   gifsicle
   gist
@@ -71,6 +72,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   grep
   gzip
   haste-client
+  helm
   hey
   htop
   hub
@@ -97,6 +99,7 @@ $ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
   nmap
   nomad
   openssl
+  openshift-cli
   p7zip
   packer
   psgrep
@@ -129,6 +132,7 @@ $ sed -n '/BREW_CASKS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_CASKS|)'
   balenaetcher
   calibre
   clamxav
+  clipy
   discord
   docker
   docker-toolbox

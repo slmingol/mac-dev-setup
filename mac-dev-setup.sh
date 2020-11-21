@@ -85,6 +85,7 @@ BREW_PKGS=(
   diffutils
   ed
   findutils
+  fortune
   gawk
   gifsicle
   gist
@@ -133,6 +134,7 @@ BREW_PKGS=(
   nmap
   nomad
   openssl
+  openshift-cli
   p7zip
   packer
   psgrep
@@ -165,6 +167,7 @@ BREW_CASKS=(
   balenaetcher
   calibre
   clamxav
+  clipy
   discord
   docker
   docker-toolbox
