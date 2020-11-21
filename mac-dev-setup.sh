@@ -67,7 +67,6 @@ BREW_PKGS=(
   ansible
   asciinema
   aspell
-  awless
   aws-shell
   awscli
   awslogs
