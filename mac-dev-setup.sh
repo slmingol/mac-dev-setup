@@ -107,7 +107,6 @@ BREW_PKGS=(
   gzip
   haste-client
   helm
-  hey
   htop
   hub
   iftop
@@ -127,11 +126,9 @@ BREW_PKGS=(
   lastpass-cli
   less
   lolcat
-  macvim
   mtr
   neofetch
   nmap
-  nomad
   openssl
   openshift-cli
   p7zip
@@ -142,7 +139,6 @@ BREW_PKGS=(
   pv
   python3
   readline
-  screen
   speedtest-cli
   stern
   stress
@@ -153,7 +149,6 @@ BREW_PKGS=(
   tree
   vagrant-completion
   vault
-  virt-viewer
   watch
   wdiff
   wget
@@ -174,16 +169,20 @@ BREW_CASKS=(
   firefox
   gitify
   google-chrome
+  hey
   keybase
+  macvim
+  nomad
   openvpn-connect
   pingplotter
   podman
   postman
+  screen
   slack
   spectacle
   transmit
   vagrant
-  virtualbox
+  #virtualbox
   #virtualbox-extension-pack
   visual-studio-code
 )
@@ -196,6 +195,7 @@ BREW_TAPS=(
   jmespath/jmespath,jp
   johanhaleby/kubetail,kubetail
   wallix/awless,awless
+  jeffreywildman/homebrew-virt-manager,virt-viewer
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
@@ -224,7 +224,7 @@ fi
 # Re-enable gatekeeper
 sudo spctl --master-enable
 sudo spctl --add /Applications/Visual\ Studio\ Code.app
-sudo spctl --add /Applications/VirtualBox.app
+#sudo spctl --add /Applications/VirtualBox.app
 
 if [ "$MODE" == "install" ]; then
     # Add git bash-completion to shell profile
