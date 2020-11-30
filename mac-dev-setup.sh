@@ -196,6 +196,8 @@ BREW_TAPS=(
   johanhaleby/kubetail,kubetail
   wallix/awless,awless
   jeffreywildman/homebrew-virt-manager,virt-viewer
+  AdoptOpenJDK/openjdk,adoptopenjdk8
+  AdoptOpenJDK/openjdk,adoptopenjdk11
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
@@ -241,4 +243,8 @@ if [ "$MODE" == "install" ]; then
 
     # Turn off scrollbars in Terminal.app
     defaults write com.apple.Terminal AppleShowScrollBars -string WhenScrolling
+    # Enable finder all files
+    #   - https://setapp.com/how-to/show-hidden-files-on-mac
+    defaults write com.apple.finder ApplyShowAllFiles TRUE
+    killall Finder
 fi
