@@ -64,6 +64,7 @@ fi
 
 # Install packages
 BREW_PKGS=(
+  adoptopenjdk8
   ansible
   asciinema
   aspell
@@ -118,6 +119,7 @@ BREW_PKGS=(
   jid
   jp
   jq
+  keepassc
   kind
   kubectl
   kubectx
@@ -182,7 +184,7 @@ BREW_CASKS=(
   spectacle
   transmit
   vagrant
-  #virtualbox
+  virtualbox
   #virtualbox-extension-pack
   visual-studio-code
 )
@@ -196,7 +198,7 @@ BREW_TAPS=(
   johanhaleby/kubetail,kubetail
   wallix/awless,awless
   jeffreywildman/homebrew-virt-manager,virt-viewer
-  AdoptOpenJDK/openjdk,adoptopenjdk8
+  #AdoptOpenJDK/openjdk,adoptopenjdk8
   AdoptOpenJDK/openjdk,adoptopenjdk11
 )
 for tap in ${BREW_TAPS[@]};do
@@ -226,7 +228,7 @@ fi
 # Re-enable gatekeeper
 sudo spctl --master-enable
 sudo spctl --add /Applications/Visual\ Studio\ Code.app
-#sudo spctl --add /Applications/VirtualBox.app
+sudo spctl --add /Applications/VirtualBox.app
 
 if [ "$MODE" == "install" ]; then
     # Add git bash-completion to shell profile
