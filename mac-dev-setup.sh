@@ -84,6 +84,7 @@ BREW_PKGS=(
   datamash
   diffutils
   ed
+  ffmpeg
   findutils
   fortune
   gawk
@@ -110,6 +111,7 @@ BREW_PKGS=(
   helm
   htop
   hub
+  icdiff
   iftop
   imagemagick
   ipcalc
@@ -154,6 +156,7 @@ BREW_PKGS=(
   watch
   wdiff
   wget
+  youtube-dl
   yq
 )
 for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
