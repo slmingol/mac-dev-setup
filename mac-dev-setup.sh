@@ -118,6 +118,7 @@ BREW_PKGS=(
   iperf3
   iproute2mac
   irssi
+  jd
   jid
   jp
   jq
