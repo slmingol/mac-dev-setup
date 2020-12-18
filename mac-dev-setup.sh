@@ -131,6 +131,7 @@ BREW_PKGS=(
   lastpass-cli
   less
   lolcat
+  mplayer
   mtr
   neofetch
   nmap
@@ -144,6 +145,7 @@ BREW_PKGS=(
   pv
   python3
   readline
+  skopeo
   speedtest-cli
   stern
   stress
