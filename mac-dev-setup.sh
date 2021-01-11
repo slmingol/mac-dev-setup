@@ -160,6 +160,7 @@ BREW_PKGS=(
   watch
   wdiff
   wget
+  wireshark
   youtube-dl
   yq
 )
