@@ -78,6 +78,7 @@ BREW_PKGS=(
   bpytop
   brew-cask-completion
   cdrtools
+  chart-testing
   consul
   coreutils
   cowsay
