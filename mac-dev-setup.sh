@@ -209,6 +209,7 @@ BREW_TAPS=(
   jeffreywildman/homebrew-virt-manager,virt-viewer
   #AdoptOpenJDK/openjdk,adoptopenjdk8
   AdoptOpenJDK/openjdk,adoptopenjdk11
+  instrumenta/instrumenta,kubeval
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
