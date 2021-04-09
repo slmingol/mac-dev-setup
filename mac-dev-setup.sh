@@ -79,6 +79,7 @@ BREW_PKGS=(
   brew-cask-completion
   cdrtools
   chart-testing
+  cheat
   consul
   coreutils
   cowsay
