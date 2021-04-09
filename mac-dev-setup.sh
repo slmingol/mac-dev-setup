@@ -205,7 +205,6 @@ BREW_TAPS=(
   drone/drone,drone
   jmespath/jmespath,jp
   johanhaleby/kubetail,kubetail
-  wallix/awless,awless
   jeffreywildman/homebrew-virt-manager,virt-viewer
   #AdoptOpenJDK/openjdk,adoptopenjdk8
   AdoptOpenJDK/openjdk,adoptopenjdk11
