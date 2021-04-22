@@ -155,6 +155,7 @@ BREW_PKGS=(
   task
   terraform
   terraform_landscape
+  tfenv
   thefuck
   tree
   vagrant-completion
