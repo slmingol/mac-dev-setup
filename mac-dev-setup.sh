@@ -107,6 +107,7 @@ BREW_PKGS=(
   gnuplot
   gnutls
   go
+  goreleaser
   gpg
   grep
   gzip
