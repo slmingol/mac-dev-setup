@@ -128,6 +128,7 @@ BREW_PKGS=(
   jq
   keepassc
   kind
+  krew
   kubectl
   kubectx
   kube-score/tap/kube-score
