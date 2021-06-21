@@ -84,6 +84,7 @@ BREW_PKGS=(
   coreutils
   cowsay
   curl
+  curlie
   datamash
   diffutils
   ed
@@ -97,6 +98,7 @@ BREW_PKGS=(
   git
   git-crypt
   git-extras
+  glances
   glide
   gnu-indent
   gnu-sed
@@ -109,12 +111,15 @@ BREW_PKGS=(
   go
   goreleaser
   gpg
+  gping
   grep
   gzip
   haste-client
   helm
   htop
+  httpie
   hub
+  hyperfine
   icdiff
   iftop
   imagemagick
@@ -166,6 +171,7 @@ BREW_PKGS=(
   wdiff
   wget
   wireshark
+  xh
   youtube-dl
   yq
 )
