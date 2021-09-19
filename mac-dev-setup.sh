@@ -21,7 +21,7 @@ brew_pkg(){
 
 # helper function for installing a package via brew cask
 brew_cask(){
-    brew cask install $1
+    brew install --cask $1
 }
 
 # helper function for installing a package via brew tap
@@ -64,7 +64,7 @@ fi
 
 # Install packages
 BREW_PKGS=(
-  adoptopenjdk8
+  #adoptopenjdk8
   ansible
   asciinema
   aspell
@@ -136,12 +136,12 @@ BREW_PKGS=(
   krew
   kubectl
   kubectx
-  kube-score/tap/kube-score
+  #kube-score/tap/kube-score
   kubespy
   lastpass-cli
   less
   lolcat
-  mplayer
+  #mplayer
   mtr
   neofetch
   nmap
@@ -189,7 +189,7 @@ BREW_CASKS=(
   fing
   firefox
   gitify
-  google-chrome
+  #google-chrome
   hey
   keybase
   macvim
@@ -199,7 +199,7 @@ BREW_CASKS=(
   podman
   postman
   screen
-  slack
+  #slack
   spectacle
   transmit
   vagrant
@@ -233,10 +233,10 @@ if [ "$MODE" == "install" ]; then
 
     # Add our shiny new shell to the list of approved shells in macOS
     # REF: https://apple.stackexchange.com/questions/224511/how-to-use-bash-as-default-shell
-    grep -q "/usr/local/bin/bash" /etc/shells || echo '/usr/local/bin/bash' | sudo tee -a /etc/shells
+    grep -q "$(brew --prefix)/bin/bash" /etc/shells || echo "$(brew --prefix)/bin/bash" | sudo tee -a /etc/shells
 
     # Switch to our new shell permanently
-    chsh -s /usr/local/bin/bash
+    chsh -s $(brew --prefix)/bin/bash
 
     # I'm too good to constantly type my password ...
     ME=$(whoami)
@@ -251,7 +251,7 @@ sudo spctl --add /Applications/VirtualBox.app
 
 if [ "$MODE" == "install" ]; then
     # Add git bash-completion to shell profile
-    echo '[[ -r "/usr/local/etc/bash_completion.d/git-completion.bash" ]] && . "/usr/local/etc/bash_completion.d/git-completion.bash"' >> ~/.bash_profile
+    echo '[[ -r "$(brew --prefix)/etc/bash_completion.d/git-completion.bash" ]] && . "$(brew --prefix)/etc/bash_completion.d/git-completion.bash"' >> ~/.bash_profile
 
     # Add fancy bash prompt when in git repos
     cat <<'    GIT' >> ~/.bash_profile
