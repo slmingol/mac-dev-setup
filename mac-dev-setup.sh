@@ -204,13 +204,14 @@ BREW_CASKS=(
   podman
   postman
   screen
-  #slack
+  slack
   spectacle
   transmit
   vagrant
   virtualbox
   #virtualbox-extension-pack
   visual-studio-code
+  vlc
 )
 for cask in ${BREW_CASKS[@]};do brew_cask $cask;done
 
