@@ -76,6 +76,7 @@ BREW_PKGS=(
   aws-shell
   awscli
   awslogs
+  aws/tap/eks-anywhere
   bash
   bash-completion
   bash-git-prompt
