@@ -197,6 +197,7 @@ BREW_CASKS=(
   gitify
   #google-chrome
   hey
+  itsycal
   keybase
   macvim
   nomad
