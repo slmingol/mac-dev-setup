@@ -138,6 +138,7 @@ BREW_PKGS=(
   jp
   jq
   keepassc
+  keycastr
   kind
   krew
   kubectl
