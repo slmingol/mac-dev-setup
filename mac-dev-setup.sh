@@ -81,6 +81,7 @@ BREW_PKGS=(
   bash-completion
   bash-git-prompt
   binutils
+  blueutil
   bpytop
   brew-cask-completion
   cdrtools
