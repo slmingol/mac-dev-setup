@@ -105,7 +105,7 @@ BREW_PKGS=(
   git-crypt
   git-extras
   glances
-  glide
+  #glide
   gnu-indent
   gnu-sed
   gnu-tar
@@ -195,6 +195,7 @@ BREW_CASKS=(
   fing
   firefox
   gitify
+  glow
   #google-chrome
   hey
   itsycal
@@ -227,6 +228,8 @@ BREW_TAPS=(
   #AdoptOpenJDK/openjdk,adoptopenjdk8
   AdoptOpenJDK/openjdk,adoptopenjdk11
   instrumenta/instrumenta,kubeval
+  jmainguy/tap/ghreports
+  hakky54/crip
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
