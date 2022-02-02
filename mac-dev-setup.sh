@@ -207,8 +207,10 @@ BREW_CASKS=(
   podman
   postman
   screen
+  sdformatter
   slack
   spectacle
+  synergy
   transmit
   vagrant
   virtualbox
