@@ -148,6 +148,7 @@ BREW_PKGS=(
   kubespy
   lastpass-cli
   less
+  lima
   lolcat
   #mplayer
   mtr
@@ -194,6 +195,7 @@ BREW_CASKS=(
   discord
   docker
   docker-toolbox
+  docker-credential-helper
   fing
   firefox
   gitify
