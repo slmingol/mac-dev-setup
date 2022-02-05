@@ -154,6 +154,7 @@ BREW_PKGS=(
   mtr
   neofetch
   nmap
+  nvm
   openssl
   openshift-cli
   p7zip
