@@ -206,6 +206,7 @@ BREW_CASKS=(
   itsycal
   keybase
   macvim
+  mylio
   nomad
   openvpn-connect
   pingplotter
