@@ -81,6 +81,7 @@ BREW_PKGS=(
   bash-completion
   bash-git-prompt
   binutils
+  blueutil
   bpytop
   brew-cask-completion
   cdrtools
@@ -105,7 +106,7 @@ BREW_PKGS=(
   git-crypt
   git-extras
   glances
-  glide
+  #glide
   gnu-indent
   gnu-sed
   gnu-tar
@@ -138,6 +139,7 @@ BREW_PKGS=(
   jp
   jq
   keepassc
+  keycastr
   kind
   #krew
   kubectl
@@ -146,11 +148,13 @@ BREW_PKGS=(
   kubespy
   lastpass-cli
   less
+  lima
   lolcat
   #mplayer
   mtr
   neofetch
   nmap
+  nvm
   openssl
   openshift-cli
   p7zip
@@ -192,11 +196,14 @@ BREW_CASKS=(
   discord
   docker
   docker-toolbox
+  docker-credential-helper
   fing
   firefox
   gitify
+  glow
   #google-chrome
   hey
+  itsycal
   keybase
   macvim
   nomad
@@ -205,8 +212,10 @@ BREW_CASKS=(
   podman
   postman
   screen
+  sdformatter
   slack
   spectacle
+  synergy
   transmit
   vagrant
   virtualbox
@@ -226,6 +235,8 @@ BREW_TAPS=(
   #AdoptOpenJDK/openjdk,adoptopenjdk8
   AdoptOpenJDK/openjdk,adoptopenjdk11
   instrumenta/instrumenta,kubeval
+  jmainguy/tap/ghreports
+  hakky54/crip
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
