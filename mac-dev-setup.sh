@@ -139,7 +139,7 @@ BREW_PKGS=(
   jq
   keepassc
   kind
-  krew
+  #krew
   kubectl
   kubectx
   #kube-score/tap/kube-score
