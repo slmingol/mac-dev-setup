@@ -93,6 +93,7 @@ BREW_PKGS=(
   curl
   curlie
   datamash
+  derailed/popeye/popeye
   diffutils
   ed
   ffmpeg
@@ -138,6 +139,7 @@ BREW_PKGS=(
   jid
   jp
   jq
+  k9s
   keepassc
   keycastr
   kind
