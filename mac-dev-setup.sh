@@ -71,6 +71,7 @@ fi
 BREW_PKGS=(
   #adoptopenjdk8
   ansible
+  arping
   asciinema
   aspell
   aws-shell
