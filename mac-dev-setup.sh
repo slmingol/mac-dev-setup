@@ -240,6 +240,7 @@ BREW_TAPS=(
   instrumenta/instrumenta,kubeval
   jmainguy/tap/ghreports
   hakky54/crip
+  kluctl/tap/kluctl
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
