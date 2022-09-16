@@ -96,12 +96,14 @@ BREW_PKGS=(
   datamash
   derailed/popeye/popeye
   diffutils
+  docker-credential-helper
   ed
   ffmpeg
   findutils
   fortune
   gawk
   gh
+  jmainguy/tap/ghreport
   gifsicle
   gist
   git
@@ -109,6 +111,7 @@ BREW_PKGS=(
   git-extras
   glances
   #glide
+  glow
   gnu-indent
   gnu-sed
   gnu-tar
@@ -145,6 +148,7 @@ BREW_PKGS=(
   keycastr
   kind
   #krew
+  kluctl/tap/kluctl
   kubectl
   kubectx
   #kube-score/tap/kube-score
@@ -162,12 +166,14 @@ BREW_PKGS=(
   openshift-cli
   p7zip
   packer
+  podman
   psgrep
   pstree
   psutils
   pv
   python3
   readline
+  screen
   skopeo
   speedtest-cli
   stern
@@ -199,11 +205,9 @@ BREW_CASKS=(
   discord
   docker
   docker-toolbox
-  docker-credential-helper
   fing
   firefox
   gitify
-  glow
   #google-chrome
   hey
   itsycal
@@ -212,16 +216,14 @@ BREW_CASKS=(
   nomad
   openvpn-connect
   pingplotter
-  podman
   postman
-  screen
   sdformatter
-  slack
+  #slack
   spectacle
   synergy
   transmit
   vagrant
-  virtualbox
+  #virtualbox
   #virtualbox-extension-pack
   visual-studio-code
   vlc
@@ -238,9 +240,7 @@ BREW_TAPS=(
   #AdoptOpenJDK/openjdk,adoptopenjdk8
   AdoptOpenJDK/openjdk,adoptopenjdk11
   instrumenta/instrumenta,kubeval
-  jmainguy/tap/ghreports
-  hakky54/crip
-  kluctl/tap/kluctl
+  hakky54/crip,crip
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
@@ -269,7 +269,7 @@ fi
 # Re-enable gatekeeper
 sudo spctl --master-enable
 sudo spctl --add /Applications/Visual\ Studio\ Code.app
-sudo spctl --add /Applications/VirtualBox.app
+#sudo spctl --add /Applications/VirtualBox.app
 
 if [ "$MODE" == "install" ]; then
     # Add git bash-completion to shell profile
