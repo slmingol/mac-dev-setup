@@ -102,6 +102,7 @@ BREW_PKGS=(
   findutils
   fortune
   gawk
+  gcal
   gh
   jmainguy/tap/ghreport
   gifsicle
