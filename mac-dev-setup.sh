@@ -220,7 +220,8 @@ BREW_CASKS=(
   postman
   sdformatter
   #slack
-  spectacle
+  #DEP spectacle
+  rectangle
   synergy
   transmit
   vagrant
