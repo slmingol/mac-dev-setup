@@ -212,6 +212,7 @@ BREW_CASKS=(
   #google-chrome
   hey
   itsycal
+  joplin
   keybase
   macvim
   nomad
