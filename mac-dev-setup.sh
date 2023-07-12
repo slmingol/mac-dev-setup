@@ -244,6 +244,7 @@ BREW_TAPS=(
   AdoptOpenJDK/openjdk,adoptopenjdk11
   instrumenta/instrumenta,kubeval
   hakky54/crip,crip
+  robusta-dev/homebrew-krr,krr
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
