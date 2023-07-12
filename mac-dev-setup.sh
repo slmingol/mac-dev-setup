@@ -98,6 +98,7 @@ BREW_PKGS=(
   diffutils
   docker-credential-helper
   ed
+  expect
   ffmpeg
   findutils
   fortune
