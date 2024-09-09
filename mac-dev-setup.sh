@@ -70,6 +70,7 @@ fi
 # Install packages
 BREW_PKGS=(
   #adoptopenjdk8
+  #amphetamine
   ansible
   arping
   asciinema
@@ -81,6 +82,8 @@ BREW_PKGS=(
   bash
   bash-completion
   bash-git-prompt
+  bat
+  btop
   binutils
   blueutil
   bpytop
@@ -91,14 +94,21 @@ BREW_PKGS=(
   consul
   coreutils
   cowsay
+  coursier
+  ctop
   curl
   curlie
   datamash
   derailed/popeye/popeye
   diffutils
-  docker-credential-helper
+  dive
+  #docker-credential-helper
+  duf
+  dust
   ed
+  exiftool
   expect
+  eza
   ffmpeg
   findutils
   fortune
@@ -149,7 +159,7 @@ BREW_PKGS=(
   keepassc
   keycastr
   kind
-  #krew
+  krew
   kluctl/tap/kluctl
   kubectl
   kubectx
@@ -157,10 +167,12 @@ BREW_PKGS=(
   kubespy
   lastpass-cli
   less
+  lilypond
   lima
   lolcat
   #mplayer
   mtr
+  multipass
   neofetch
   nmap
   nvm
@@ -169,15 +181,17 @@ BREW_PKGS=(
   p7zip
   packer
   podman
+  procs
   psgrep
   pstree
   psutils
   pv
   python3
   readline
+  ripgrep
   screen
   skopeo
-  speedtest-cli
+  #speedtest-cli (replaced by ookla's version)
   stern
   stress
   task
@@ -185,13 +199,15 @@ BREW_PKGS=(
   terraform_landscape
   tfenv
   thefuck
+  tldr
   tree
   vagrant-completion
   vault
   watch
   wdiff
   wget
-  wireshark
+  wireshark # maybe cask this later? ... homebrew/cask/wireshark
+  wrk
   xh
   youtube-dl
   yq
@@ -205,8 +221,8 @@ BREW_CASKS=(
   clamxav
   clipy
   discord
-  docker
-  docker-toolbox
+  #docker
+  #docker-toolbox
   fing
   firefox
   gitify
@@ -214,7 +230,7 @@ BREW_CASKS=(
   hey
   itsycal
   joplin
-  keybase
+  #keybase - was having install/update issues, temp. disabled it (9/9/24)
   macvim
   nomad
   openvpn-connect
@@ -246,6 +262,7 @@ BREW_TAPS=(
   instrumenta/instrumenta,kubeval
   hakky54/crip,crip
   robusta-dev/homebrew-krr,krr
+  teamookla/speedtest,speedtest
 )
 for tap in ${BREW_TAPS[@]};do
   TAP=$(echo $tap | cut -d, -f1)
