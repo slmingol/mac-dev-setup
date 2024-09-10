@@ -91,7 +91,7 @@ BREW_PKGS=(
   cdrtools
   chart-testing
   cheat
-  consul
+  #consul
   coreutils
   cowsay
   coursier
@@ -161,6 +161,7 @@ BREW_PKGS=(
   kind
   krew
   kluctl/tap/kluctl
+  kubeconform
   kubectl
   kubectx
   #kube-score/tap/kube-score
@@ -179,7 +180,7 @@ BREW_PKGS=(
   openssl
   openshift-cli
   p7zip
-  packer
+  #packer
   podman
   procs
   psgrep
@@ -201,15 +202,16 @@ BREW_PKGS=(
   thefuck
   tldr
   tree
-  vagrant-completion
-  vault
+  #vagrant-completion
+  #vault
   watch
   wdiff
   wget
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
   wrk
   xh
-  youtube-dl
+  #youtube-dl
+  yt-dlp
   yq
 )
 for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
@@ -258,8 +260,8 @@ BREW_TAPS=(
   johanhaleby/kubetail,kubetail
   jeffreywildman/homebrew-virt-manager,virt-viewer
   #AdoptOpenJDK/openjdk,adoptopenjdk8
-  AdoptOpenJDK/openjdk,adoptopenjdk11
-  instrumenta/instrumenta,kubeval
+  #AdoptOpenJDK/openjdk,adoptopenjdk11
+  #instrumenta/instrumenta,kubeval
   hakky54/crip,crip
   robusta-dev/homebrew-krr,krr
   teamookla/speedtest,speedtest
