@@ -94,7 +94,7 @@ BREW_PKGS=(
   #consul
   coreutils
   cowsay
-  coursier
+  #coursier
   ctop
   curl
   curlie
@@ -242,6 +242,7 @@ BREW_CASKS=(
   #slack
   #DEP spectacle
   rectangle
+  sonic-visualiser
   synergy
   transmit
   vagrant
