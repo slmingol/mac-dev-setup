@@ -103,7 +103,7 @@ BREW_PKGS=(
   diffutils
   dive
   #docker-credential-helper
-  dog
+  #dog # deprecated in brew, use doge - not in brew yet
   duf
   dust
   ed
