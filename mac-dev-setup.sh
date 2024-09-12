@@ -103,6 +103,7 @@ BREW_PKGS=(
   diffutils
   dive
   #docker-credential-helper
+  dog
   duf
   dust
   ed
