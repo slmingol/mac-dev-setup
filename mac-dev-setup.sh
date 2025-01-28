@@ -206,6 +206,7 @@ BREW_PKGS=(
   tree
   #vagrant-completion
   #vault
+  wakeonlan
   watch
   wdiff
   wget
