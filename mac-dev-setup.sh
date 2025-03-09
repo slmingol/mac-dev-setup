@@ -193,6 +193,7 @@ BREW_PKGS=(
   python3
   readline
   ripgrep
+  rdp/homebrew-openssh-gssapi
   screen
   skopeo
   #speedtest-cli (replaced by ookla's version)
