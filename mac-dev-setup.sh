@@ -110,6 +110,7 @@ BREW_PKGS=(
   exiftool
   expect
   eza
+  fastfetch
   ffmpeg
   findutils
   fortune
@@ -175,7 +176,7 @@ BREW_PKGS=(
   #mplayer
   mtr
   multipass
-  neofetch
+  #neofetch
   nmap
   nvm
   nvtop
