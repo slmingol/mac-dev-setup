@@ -158,6 +158,7 @@ BREW_PKGS=(
   jp
   jq
   k9s
+  karabiner-elements
   keepassc
   keycastr
   kind
