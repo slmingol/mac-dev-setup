@@ -136,6 +136,7 @@ BREW_PKGS=(
   gnutls
   go
   goreleaser
+  govc
   gpg
   gping
   grep
