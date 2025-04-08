@@ -118,6 +118,7 @@ BREW_PKGS=(
   gcal
   gh
   jmainguy/tap/ghreport
+  jnv
   gifsicle
   gist
   git
