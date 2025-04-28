@@ -51,7 +51,10 @@ esac
 [[ -e ~/.config/brew_gh_token ]] && export HOMEBREW_GITHUB_API_TOKEN=$(cat ~/.config/brew_gh_token)
 
 # Temporarily disable gatekeeper to prevent installations from failing
-sudo spctl --master-disable
+sudo spctl --status
+sudo spctl --global-disable
+sudo spctl --status
+# REF: https://derflounder.wordpress.com/2024/09/23/spctl-command-line-tool-no-longer-able-to-manage-gatekeeper-on-macos-sequoia/
 
 # Speed up keypresses
 # https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
@@ -300,7 +303,7 @@ if [ "$MODE" == "install" ]; then
 fi
 
 # Re-enable gatekeeper
-sudo spctl --master-enable
+sudo spctl --global-enable
 sudo spctl --add /Applications/Visual\ Studio\ Code.app
 #sudo spctl --add /Applications/VirtualBox.app
 
