@@ -201,6 +201,7 @@ BREW_PKGS=(
   ripgrep
   rdp/homebrew-openssh-gssapi
   screen
+  shottr
   skopeo
   #speedtest-cli (replaced by ookla's version)
   stern
