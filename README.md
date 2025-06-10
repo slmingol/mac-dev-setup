@@ -8,7 +8,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
 1. Python 3 installed
 1. Go installed
 1. Several Useful tools:
-   - Virtualbox
+   - Virtualbox (not by default, because of licensing)
    - Vagrant
    - Visual Studio Code
    - Git
@@ -22,6 +22,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
    - Nomad
    - AWS cli
    - Drone cli
+   - Temurin JDK
    - ...
 
 # Full list
@@ -29,7 +30,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
 ### Brew Packages
 ```
  $ ▶ sed -n '/BREW_PKGS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_PKGS|)'
-  #adoptopenjdk8
+  #amphetamine
   ansible
   arping
   asciinema
@@ -41,6 +42,8 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   bash
   bash-completion
   bash-git-prompt
+  bat
+  btop
   binutils
   blueutil
   bpytop
@@ -48,20 +51,34 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   cdrtools
   chart-testing
   cheat
-  consul
+  #consul
   coreutils
   cowsay
+  #coursier
+  ctop
   curl
   curlie
   datamash
   derailed/popeye/popeye
   diffutils
+  dive
+  #docker-credential-helper
+  #dog # deprecated in brew, use doge - not in brew yet
+  duf
+  dust
   ed
+  exiftool
+  expect
+  eza
+  fastfetch
   ffmpeg
   findutils
   fortune
   gawk
+  gcal
   gh
+  jmainguy/tap/ghreport
+  jnv
   gifsicle
   gist
   git
@@ -69,6 +86,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   git-extras
   glances
   #glide
+  glow
   gnu-indent
   gnu-sed
   gnu-tar
@@ -79,6 +97,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   gnutls
   go
   goreleaser
+  govc
   gpg
   gping
   grep
@@ -101,35 +120,47 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   jp
   jq
   k9s
+  karabiner-elements
   keepassc
   keycastr
   kind
-  #krew
+  krew
+  kluctl/tap/kluctl
+  kubeconform
   kubectl
   kubectx
   #kube-score/tap/kube-score
   kubespy
   lastpass-cli
   less
+  lilypond
   lima
   lolcat
   #mplayer
   mtr
-  neofetch
+  multipass
+  #neofetch
   nmap
   nvm
+  nvtop
   openssl
   openshift-cli
   p7zip
-  packer
+  #packer
+  podman
+  procs
   psgrep
   pstree
   psutils
   pv
   python3
   readline
+  ripgrep
+  rdp/homebrew-openssh-gssapi
+  screen
+  shottr
   skopeo
-  speedtest-cli
+  #speedtest-cli (replaced by ookla's version)
   stern
   stress
   task
@@ -137,15 +168,19 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   terraform_landscape
   tfenv
   thefuck
+  tldr
   tree
-  vagrant-completion
-  vault
+  #vagrant-completion
+  #vault
+  wakeonlan
   watch
   wdiff
   wget
-  wireshark
+  wireshark # maybe cask this later? ... homebrew/cask/wireshark
+  wrk
   xh
-  youtube-dl
+  #youtube-dl
+  yt-dlp
   yq
 ```
 
@@ -157,31 +192,31 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   clamxav
   clipy
   discord
-  docker
-  docker-toolbox
-  docker-credential-helper
+  #docker
+  #docker-toolbox
   fing
   firefox
   gitify
-  glow
   #google-chrome
   hey
   itsycal
-  keybase
+  joplin
+  #keybase - was having install/update issues, temp. disabled it (9/9/24)
   macvim
   nomad
   openvpn-connect
   pingplotter
-  podman
   postman
-  screen
   sdformatter
-  slack
-  spectacle
+  #slack
+  #DEP spectacle
+  rectangle
+  sonic-visualiser
   synergy
+  temurin
   transmit
   vagrant
-  virtualbox
+  #virtualbox
   #virtualbox-extension-pack
   visual-studio-code
   vlc
@@ -194,12 +229,10 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   jmespath/jmespath,jp
   johanhaleby/kubetail,kubetail
   jeffreywildman/homebrew-virt-manager,virt-viewer
-  #AdoptOpenJDK/openjdk,adoptopenjdk8
-  AdoptOpenJDK/openjdk,adoptopenjdk11
-  instrumenta/instrumenta,kubeval
-  jmainguy/tap/ghreports
-  hakky54/crip
-  kluctl/tap/kluctl
+  #instrumenta/instrumenta,kubeval
+  hakky54/crip,crip
+  robusta-dev/homebrew-krr,krr
+  teamookla/speedtest,speedtest
 ```
 
 # Usage

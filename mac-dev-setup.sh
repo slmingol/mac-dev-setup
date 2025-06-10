@@ -72,7 +72,6 @@ fi
 
 # Install packages
 BREW_PKGS=(
-  #adoptopenjdk8
   #amphetamine
   ansible
   arping
@@ -256,6 +255,7 @@ BREW_CASKS=(
   rectangle
   sonic-visualiser
   synergy
+  temurin
   transmit
   vagrant
   #virtualbox
@@ -272,8 +272,6 @@ BREW_TAPS=(
   jmespath/jmespath,jp
   johanhaleby/kubetail,kubetail
   jeffreywildman/homebrew-virt-manager,virt-viewer
-  #AdoptOpenJDK/openjdk,adoptopenjdk8
-  #AdoptOpenJDK/openjdk,adoptopenjdk11
   #instrumenta/instrumenta,kubeval
   hakky54/crip,crip
   robusta-dev/homebrew-krr,krr
