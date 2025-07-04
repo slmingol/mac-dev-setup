@@ -90,6 +90,7 @@ BREW_PKGS=(
   blueutil
   bpytop
   brew-cask-completion
+  broot
   cdrtools
   chart-testing
   cheat
@@ -116,6 +117,7 @@ BREW_PKGS=(
   ffmpeg
   findutils
   fortune
+  fzf
   gawk
   gcal
   gh
@@ -179,6 +181,7 @@ BREW_PKGS=(
   lima
   lolcat
   #mplayer
+  mcfly
   mtr
   multipass
   #neofetch
@@ -224,6 +227,7 @@ BREW_PKGS=(
   #youtube-dl
   yt-dlp
   yq
+  zoxide
 )
 for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
 
