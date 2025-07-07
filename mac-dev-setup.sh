@@ -76,6 +76,7 @@ BREW_PKGS=(
   ansible
   arping
   asciinema
+  asitop
   aspell
   aws-shell
   awscli
