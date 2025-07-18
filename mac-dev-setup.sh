@@ -76,12 +76,14 @@ BREW_PKGS=(
   ansible
   arping
   asciinema
+  asciiquarium
   asitop
   aspell
   aws-shell
   awscli
   awslogs
   aws/tap/eks-anywhere
+  aview
   bash
   bash-completion
   bash-git-prompt
@@ -95,6 +97,7 @@ BREW_PKGS=(
   cdrtools
   chart-testing
   cheat
+  cmatrix
   #consul
   coreutils
   cowsay
@@ -116,6 +119,7 @@ BREW_PKGS=(
   eza
   fastfetch
   ffmpeg
+  figlet
   findutils
   fortune
   fzf
@@ -201,6 +205,7 @@ BREW_PKGS=(
   pv
   python3
   readline
+  rig
   ripgrep
   rdp/homebrew-openssh-gssapi
   screen
@@ -215,6 +220,7 @@ BREW_PKGS=(
   tfenv
   thefuck
   tldr
+  toilet
   tree
   #vagrant-completion
   #vault
