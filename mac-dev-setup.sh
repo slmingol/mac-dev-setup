@@ -94,6 +94,7 @@ BREW_PKGS=(
   bpytop
   brew-cask-completion
   broot
+  bruno-cli
   cdrtools
   chart-testing
   cheat
@@ -246,6 +247,7 @@ brew tap rdp/homebrew-openssh-gssapi
 # Install casks
 BREW_CASKS=(
   balenaetcher
+  bruno
   calibre
   #clamxav # - disabling never use it (07/26/2025)
   clipy
@@ -265,7 +267,7 @@ BREW_CASKS=(
   openvpn-connect
   pingplotter
   podman-desktop
-  postman
+  #postman
   rectangle
   sdformatter
   #slack
