@@ -230,6 +230,7 @@ BREW_PKGS=(
   watch
   wdiff
   wget
+  wireguard-tools
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
   wrk
   xh
@@ -263,6 +264,7 @@ BREW_CASKS=(
   joplin
   keybase
   macvim
+  milkman
   #nomad
   openvpn-connect
   pingplotter
