@@ -50,11 +50,11 @@ esac
 # tests for a GitHub Personal Access Token (PAT) for use against their API
 [[ -e ~/.config/brew_gh_token ]] && export HOMEBREW_GITHUB_API_TOKEN=$(cat ~/.config/brew_gh_token)
 
-# Temporarily disable gatekeeper to prevent installations from failing
-sudo spctl --status
-sudo spctl --global-disable
-sudo spctl --status
-# REF: https://derflounder.wordpress.com/2024/09/23/spctl-command-line-tool-no-longer-able-to-manage-gatekeeper-on-macos-sequoia/
+## Temporarily disable gatekeeper to prevent installations from failing
+#sudo spctl --status
+#sudo spctl --global-disable
+#sudo spctl --status
+## REF: https://derflounder.wordpress.com/2024/09/23/spctl-command-line-tool-no-longer-able-to-manage-gatekeeper-on-macos-sequoia/
 
 # Speed up keypresses
 # https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
@@ -124,9 +124,9 @@ BREW_PKGS=(
   fortune
   fzf
   gawk
-  gcal
+  #gcal
   gh
-  jmainguy/tap/ghreport
+  #DEP jmainguy/tap/ghreport
   jnv
   gifsicle
   gist
@@ -207,19 +207,20 @@ BREW_PKGS=(
   readline
   rig
   ripgrep
-  rdp/homebrew-openssh-gssapi
   screen
   shottr
   skopeo
   #speedtest-cli (replaced by ookla's version)
   stern
   stress
+  synergy-core
   task
   terraform
   terraform_landscape
   tfenv
   thefuck
   tldr
+  tmux
   toilet
   tree
   #vagrant-completion
@@ -238,11 +239,15 @@ BREW_PKGS=(
 )
 for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
 
+# https://github.com/rdp/homebrew-openssh-gssapi
+brew tap rdp/homebrew-openssh-gssapi
+
+
 # Install casks
 BREW_CASKS=(
   balenaetcher
   calibre
-  clamxav
+  #clamxav # - disabling never use it (07/26/2025)
   clipy
   discord
   #docker
@@ -254,21 +259,20 @@ BREW_CASKS=(
   hey
   itsycal
   joplin
-  #keybase - was having install/update issues, temp. disabled it (9/9/24)
+  keybase
   macvim
-  nomad
+  #nomad
   openvpn-connect
   pingplotter
+  podman-desktop
   postman
+  rectangle
   sdformatter
   #slack
-  #DEP spectacle
-  rectangle
   sonic-visualiser
-  synergy
   temurin
   transmit
-  vagrant
+  #vagrant # - disabling never use it (07/26/2025)
   #virtualbox
   #virtualbox-extension-pack
   visual-studio-code
@@ -285,7 +289,7 @@ BREW_TAPS=(
   jeffreywildman/homebrew-virt-manager,virt-viewer
   #instrumenta/instrumenta,kubeval
   hakky54/crip,crip
-  robusta-dev/homebrew-krr,krr
+  #robusta-dev/homebrew-krr,krr # - wasn't working 07/26/2025
   teamookla/speedtest,speedtest
 )
 for tap in ${BREW_TAPS[@]};do
@@ -313,7 +317,7 @@ if [ "$MODE" == "install" ]; then
 fi
 
 # Re-enable gatekeeper
-sudo spctl --global-enable
+##sudo spctl --global-enable
 sudo spctl --add /Applications/Visual\ Studio\ Code.app
 #sudo spctl --add /Applications/VirtualBox.app
 
