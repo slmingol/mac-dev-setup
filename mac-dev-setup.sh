@@ -128,6 +128,7 @@ BREW_PKGS=(
   #gcal
   gh
   #DEP jmainguy/tap/ghreport
+  jfrog-cli
   jnv
   gifsicle
   gist
@@ -197,8 +198,9 @@ BREW_PKGS=(
   openssl
   openshift-cli
   p7zip
-  #packer
+  hashicorp/tap/packer
   podman
+  podman-compose
   procs
   psgrep
   pstree
@@ -208,6 +210,7 @@ BREW_PKGS=(
   readline
   rig
   ripgrep
+  rdp/homebrew-openssh-gssapi
   screen
   shottr
   skopeo
@@ -216,7 +219,7 @@ BREW_PKGS=(
   stress
   synergy-core
   task
-  terraform
+  hashicorp/tap/terraform
   terraform_landscape
   tfenv
   thefuck
@@ -240,10 +243,6 @@ BREW_PKGS=(
   zoxide
 )
 for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
-
-# https://github.com/rdp/homebrew-openssh-gssapi
-brew tap rdp/homebrew-openssh-gssapi
-
 
 # Install casks
 BREW_CASKS=(
