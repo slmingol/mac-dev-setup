@@ -146,6 +146,7 @@ BREW_PKGS=(
   gnuplot
   gnutls
   go
+  gogcli
   goreleaser
   govc
   gpg
@@ -182,11 +183,13 @@ BREW_PKGS=(
   #kube-score/tap/kube-score
   kubespy
   lastpass-cli
+  lazygit
   less
   lilypond
   lima
   lolcat
   #mplayer
+  macdown
   mcfly
   mtr
   multipass
