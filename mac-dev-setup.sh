@@ -107,6 +107,7 @@ BREW_PKGS=(
   curl
   curlie
   datamash
+  delta # git-delta
   derailed/popeye/popeye
   diffutils
   dive
@@ -183,6 +184,7 @@ BREW_PKGS=(
   #kube-score/tap/kube-score
   kubespy
   lastpass-cli
+  lazydocker
   lazygit
   less
   lilypond
@@ -211,6 +213,7 @@ BREW_PKGS=(
   readline
   rig
   ripgrep
+  rtk
   screen
   shottr
   skopeo
@@ -254,6 +257,7 @@ BREW_CASKS=(
   bruno
   calibre
   #clamxav # - disabling never use it (07/26/2025)
+  claude-code
   clipy
   discord
   #docker
@@ -295,7 +299,7 @@ BREW_TAPS=(
   johanhaleby/kubetail,kubetail
   jeffreywildman/homebrew-virt-manager,virt-viewer
   #instrumenta/instrumenta,kubeval
-  hakky54/crip,crip
+  hakky54/homebrew-apps/crip,crip
   #robusta-dev/homebrew-krr,krr # - wasn't working 07/26/2025
   teamookla/speedtest,speedtest
 )
