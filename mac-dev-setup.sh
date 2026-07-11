@@ -192,6 +192,7 @@ BREW_PKGS=(
   lolcat
   #mplayer
   macdown
+  mactop
   mcfly
   mtr
   multipass
