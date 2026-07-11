@@ -191,7 +191,7 @@ BREW_PKGS=(
   lima
   lolcat
   #mplayer
-  macdown
+  #macdown #DEP
   mactop
   mcfly
   mtr
