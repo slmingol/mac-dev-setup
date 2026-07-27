@@ -107,6 +107,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   htop
   httpie
   hub
+  hunk
   hyperfine
   icdiff
   iftop
@@ -177,6 +178,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   wdiff
   wget
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
+  worktrunk
   wrk
   xh
   #youtube-dl

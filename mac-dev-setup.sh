@@ -159,6 +159,7 @@ BREW_PKGS=(
   htop
   httpie
   hub
+  hunk
   hyperfine
   icdiff
   iftop
@@ -239,6 +240,7 @@ BREW_PKGS=(
   wget
   wireguard-tools
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
+  worktrunk
   wrk
   xh
   #youtube-dl
