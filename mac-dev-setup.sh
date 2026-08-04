@@ -232,6 +232,7 @@ BREW_PKGS=(
   tmux
   toilet
   tree
+  uv
   #vagrant-completion
   #vault
   wakeonlan
