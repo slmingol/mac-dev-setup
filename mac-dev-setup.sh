@@ -135,6 +135,7 @@ BREW_PKGS=(
   git
   git-crypt
   git-extras
+  ghostty
   glances
   #glide
   glow
