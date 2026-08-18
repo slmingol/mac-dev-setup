@@ -98,6 +98,7 @@ BREW_PKGS=(
   cdrtools
   chart-testing
   cheat
+  cloudflare-wrangler
   cmatrix
   #consul
   coreutils
@@ -120,6 +121,7 @@ BREW_PKGS=(
   expect
   eza
   fastfetch
+  fd
   ffmpeg
   figlet
   findutils
@@ -225,14 +227,16 @@ BREW_PKGS=(
   stress
   synergy-core
   task
+  tealdeer
   terraform
   terraform_landscape
   tfenv
   thefuck
-  tldr
+  #tldr # replaced with tealdeer
   tmux
   toilet
   tree
+  util-linux
   uv
   #vagrant-completion
   #vault
