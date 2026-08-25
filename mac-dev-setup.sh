@@ -193,6 +193,7 @@ BREW_PKGS=(
   less
   lilypond
   lima
+  llmfit
   lolcat
   #mplayer
   #macdown #DEP
