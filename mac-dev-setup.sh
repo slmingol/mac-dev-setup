@@ -117,6 +117,7 @@ BREW_PKGS=(
   duf
   dust
   ed
+  envv
   exiftool
   expect
   eza
@@ -159,6 +160,7 @@ BREW_PKGS=(
   gzip
   haste-client
   helm
+  honker
   htop
   httpie
   hub
@@ -177,6 +179,7 @@ BREW_PKGS=(
   jq
   k9s
   karabiner-elements
+  kata
   keepassc
   keycastr
   kind
@@ -190,9 +193,12 @@ BREW_PKGS=(
   lastpass-cli
   lazydocker
   lazygit
+  lazy-tmux
   less
+  libyang
   lilypond
   lima
+  livebook-cli
   llmfit
   lolcat
   #mplayer
@@ -202,11 +208,15 @@ BREW_PKGS=(
   mtr
   multipass
   #neofetch
+  nats
+  network-doctor
   nmap
   nvm
   nvtop
+  openkermit
   openssl
   openshift-cli
+  oxvg
   p7zip
   #packer
   podman
@@ -237,6 +247,7 @@ BREW_PKGS=(
   tmux
   toilet
   tree
+  usbtree
   util-linux
   uv
   #vagrant-completion
@@ -266,6 +277,8 @@ BREW_CASKS=(
   balenaetcher
   bruno
   calibre
+  canario
+  caskhub
   #clamxav # - disabling never use it (07/26/2025)
   claude-code
   clipy
@@ -274,8 +287,12 @@ BREW_CASKS=(
   #docker-toolbox
   fing
   firefox
+  font-nexon-bazzi
+  font-nexon-lv2-gothic
+  font-nexon-maplestory
   gitify
   #google-chrome
+  headroom
   hey
   itsycal
   joplin
@@ -292,6 +309,7 @@ BREW_CASKS=(
   #slack
   sonic-visualiser
   temurin
+  textream
   transmit
   #vagrant # - disabling never use it (07/26/2025)
   #virtualbox
