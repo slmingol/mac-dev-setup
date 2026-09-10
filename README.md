@@ -67,6 +67,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   duf
   dust
   ed
+  envv
   exiftool
   expect
   eza
@@ -104,9 +105,11 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   gzip
   haste-client
   helm
+  honker
   htop
   httpie
   hub
+  hunk
   hyperfine
   icdiff
   iftop
@@ -121,6 +124,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   jq
   k9s
   karabiner-elements
+  kata
   keepassc
   keycastr
   kind
@@ -132,19 +136,25 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #kube-score/tap/kube-score
   kubespy
   lastpass-cli
-  less
+  lazy-tmux
+  libyang
   lilypond
   lima
+  livebook-cli
   lolcat
   #mplayer
   mtr
   multipass
   #neofetch
+  nats
+  network-doctor
   nmap
   nvm
   nvtop
+  openkermit
   openssl
   openshift-cli
+  oxvg
   p7zip
   #packer
   podman
@@ -170,6 +180,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   thefuck
   tldr
   tree
+  usbtree
   #vagrant-completion
   #vault
   wakeonlan
@@ -177,6 +188,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   wdiff
   wget
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
+  worktrunk
   wrk
   xh
   #youtube-dl
@@ -189,6 +201,8 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
  $ ▶ sed -n '/BREW_CASKS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_CASKS|)'
   balenaetcher
   calibre
+  canario
+  caskhub
   clamxav
   clipy
   discord
@@ -196,8 +210,12 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #docker-toolbox
   fing
   firefox
+  font-nexon-bazzi
+  font-nexon-lv2-gothic
+  font-nexon-maplestory
   gitify
   #google-chrome
+  headroom
   hey
   itsycal
   joplin
@@ -214,6 +232,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   sonic-visualiser
   synergy
   temurin
+  textream
   transmit
   vagrant
   #virtualbox

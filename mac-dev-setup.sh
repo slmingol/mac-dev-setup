@@ -98,6 +98,7 @@ BREW_PKGS=(
   cdrtools
   chart-testing
   cheat
+  cloudflare-wrangler
   cmatrix
   #consul
   coreutils
@@ -107,6 +108,7 @@ BREW_PKGS=(
   curl
   curlie
   datamash
+  delta # git-delta
   derailed/popeye/popeye
   diffutils
   dive
@@ -115,10 +117,12 @@ BREW_PKGS=(
   duf
   dust
   ed
+  envv
   exiftool
   expect
   eza
   fastfetch
+  fd
   ffmpeg
   figlet
   findutils
@@ -135,6 +139,7 @@ BREW_PKGS=(
   git
   git-crypt
   git-extras
+  ghostty
   glances
   #glide
   glow
@@ -147,6 +152,7 @@ BREW_PKGS=(
   gnuplot
   gnutls
   go
+  gogcli
   goreleaser
   govc
   gpg
@@ -155,9 +161,11 @@ BREW_PKGS=(
   gzip
   haste-client
   helm
+  honker
   htop
   httpie
   hub
+  hunk
   hyperfine
   icdiff
   iftop
@@ -172,6 +180,7 @@ BREW_PKGS=(
   jq
   k9s
   karabiner-elements
+  kata
   keepassc
   keycastr
   kind
@@ -183,20 +192,32 @@ BREW_PKGS=(
   #kube-score/tap/kube-score
   kubespy
   lastpass-cli
+  lazydocker
+  lazygit
+  lazy-tmux
   less
+  libyang
   lilypond
   lima
+  livebook-cli
+  llmfit
   lolcat
   #mplayer
+  #macdown #DEP
+  mactop
   mcfly
   mtr
   multipass
   #neofetch
+  nats
+  network-doctor
   nmap
   nvm
   nvtop
+  openkermit
   openssl
   openshift-cli
+  oxvg
   p7zip
   hashicorp/tap/packer
   podman
@@ -211,6 +232,7 @@ BREW_PKGS=(
   rig
   ripgrep
   rdp/homebrew-openssh-gssapi
+  rtk
   screen
   shottr
   skopeo
@@ -220,13 +242,18 @@ BREW_PKGS=(
   synergy-core
   task
   hashicorp/tap/terraform
+  tealdeer
+  terraform
   terraform_landscape
   tfenv
   thefuck
-  tldr
+  #tldr # replaced with tealdeer
   tmux
   toilet
   tree
+  usbtree
+  util-linux
+  uv
   #vagrant-completion
   #vault
   wakeonlan
@@ -235,6 +262,7 @@ BREW_PKGS=(
   wget
   wireguard-tools
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
+  worktrunk
   wrk
   xh
   #youtube-dl
@@ -249,15 +277,22 @@ BREW_CASKS=(
   balenaetcher
   bruno
   calibre
+  canario
+  caskhub
   #clamxav # - disabling never use it (07/26/2025)
+  claude-code
   clipy
   discord
   #docker
   #docker-toolbox
   fing
   firefox
+  font-nexon-bazzi
+  font-nexon-lv2-gothic
+  font-nexon-maplestory
   gitify
   #google-chrome
+  headroom
   hey
   itsycal
   joplin
@@ -274,6 +309,7 @@ BREW_CASKS=(
   #slack
   sonic-visualiser
   temurin
+  textream
   transmit
   #vagrant # - disabling never use it (07/26/2025)
   #virtualbox
@@ -291,7 +327,7 @@ BREW_TAPS=(
   johanhaleby/kubetail,kubetail
   jeffreywildman/homebrew-virt-manager,virt-viewer
   #instrumenta/instrumenta,kubeval
-  hakky54/crip,crip
+  hakky54/homebrew-apps/crip,crip
   #robusta-dev/homebrew-krr,krr # - wasn't working 07/26/2025
   teamookla/speedtest,speedtest
 )
