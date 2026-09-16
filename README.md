@@ -35,6 +35,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   arping
   asciinema
   aspell
+  atuin
   aws-shell
   awscli
   awslogs

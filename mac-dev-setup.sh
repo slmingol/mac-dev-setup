@@ -79,6 +79,7 @@ BREW_PKGS=(
   asciiquarium
   asitop
   aspell
+  atuin
   aws-shell
   awscli
   awslogs
