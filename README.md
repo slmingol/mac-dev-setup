@@ -172,6 +172,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   rdp/homebrew-openssh-gssapi
   screen
   shottr
+  sipsak
   skopeo
   #speedtest-cli (replaced by ookla's version)
   stern
