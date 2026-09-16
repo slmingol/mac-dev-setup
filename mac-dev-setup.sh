@@ -125,6 +125,7 @@ BREW_PKGS=(
   eza
   fastfetch
   fd
+  fend
   ffmpeg
   figlet
   findutils
