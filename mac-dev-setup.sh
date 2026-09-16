@@ -84,6 +84,7 @@ BREW_PKGS=(
   awslogs
   aws/tap/eks-anywhere
   aview
+  bandwhich
   bash
   bash-completion
   bash-git-prompt
