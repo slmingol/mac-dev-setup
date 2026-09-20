@@ -135,6 +135,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   keepassc
   keycastr
   kind
+  kondo
   krew
   kluctl/tap/kluctl
   kubeconform

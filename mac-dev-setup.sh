@@ -191,6 +191,7 @@ BREW_PKGS=(
   keepassc
   keycastr
   kind
+  kondo
   krew
   kluctl/tap/kluctl
   kubeconform
