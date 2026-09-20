@@ -105,6 +105,7 @@ BREW_PKGS=(
   #consul
   coreutils
   cowsay
+  croc
   #coursier
   ctop
   curl
@@ -163,6 +164,7 @@ BREW_PKGS=(
   gpg
   gping
   grep
+  grex
   gzip
   haste-client
   helm

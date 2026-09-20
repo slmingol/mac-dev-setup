@@ -56,6 +56,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #consul
   coreutils
   cowsay
+  croc
   #coursier
   ctop
   curl
@@ -107,6 +108,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   gpg
   gping
   grep
+  grex
   gzip
   haste-client
   helm
