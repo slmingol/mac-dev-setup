@@ -315,3 +315,6 @@ Warning: Cask 'clamxav' is already installed.
 
 $
 ```
+
+# References
+- [10 Modern CLI Tools You Should Try in 2026](https://medium.com/@sandunlakshan213/10-modern-cli-tools-you-should-try-in-2026-18ce4e16c28e)
