@@ -89,6 +89,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   git
   git-crypt
   git-extras
+  gitlogue
   glances
   #glide
   glow
@@ -186,6 +187,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   tldr
   tree
   usbtree
+  visidata
   #vagrant-completion
   #vault
   wakeonlan

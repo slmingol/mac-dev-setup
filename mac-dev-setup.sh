@@ -143,6 +143,7 @@ BREW_PKGS=(
   git
   git-crypt
   git-extras
+  gitlogue
   ghostty
   glances
   #glide
@@ -259,6 +260,7 @@ BREW_PKGS=(
   usbtree
   util-linux
   uv
+  visidata
   #vagrant-completion
   #vault
   wakeonlan
