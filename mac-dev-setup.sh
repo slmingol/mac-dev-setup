@@ -222,6 +222,7 @@ BREW_PKGS=(
   openkermit
   openssl
   openshift-cli
+  oxker
   oxvg
   p7zip
   hashicorp/tap/packer

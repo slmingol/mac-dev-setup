@@ -159,6 +159,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   openkermit
   openssl
   openshift-cli
+  oxker
   oxvg
   p7zip
   #packer
