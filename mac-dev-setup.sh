@@ -114,6 +114,7 @@ BREW_PKGS=(
   derailed/popeye/popeye
   diffutils
   dive
+  dnsglobe
   #docker-credential-helper
   #dog # deprecated in brew, use doge - not in brew yet
   duf

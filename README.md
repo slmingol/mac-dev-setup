@@ -64,6 +64,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   derailed/popeye/popeye
   diffutils
   dive
+  dnsglobe
   #docker-credential-helper
   #dog # deprecated in brew, use doge - not in brew yet
   duf
