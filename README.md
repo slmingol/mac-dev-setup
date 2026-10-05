@@ -151,6 +151,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   livebook-cli
   lolcat
   #mplayer
+  mole
   mtr
   multipass
   #neofetch
