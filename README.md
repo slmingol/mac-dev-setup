@@ -34,12 +34,15 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   ansible
   arping
   asciinema
+  asciiquarium
+  asitop
   aspell
   atuin
   aws-shell
   awscli
   awslogs
   aws/tap/eks-anywhere
+  aview
   bandwhich
   bash
   bash-completion
@@ -50,9 +53,13 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   blueutil
   bpytop
   brew-cask-completion
+  broot
+  bruno-cli
   cdrtools
   chart-testing
   cheat
+  cloudflare-wrangler
+  cmatrix
   #consul
   coreutils
   cowsay
@@ -62,6 +69,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   curl
   curlie
   datamash
+  delta # git-delta
   derailed/popeye/popeye
   diffutils
   dive
@@ -76,14 +84,18 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   expect
   eza
   fastfetch
+  fd
   fend
   ffmpeg
+  figlet
   findutils
   fortune
+  fzf
   gawk
-  gcal
+  #gcal
   gh
-  jmainguy/tap/ghreport
+  #DEP jmainguy/tap/ghreport
+  jfrog-cli
   jnv
   gifsicle
   gist
@@ -91,6 +103,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   git-crypt
   git-extras
   gitlogue
+  ghostty
   glances
   #glide
   glow
@@ -103,6 +116,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   gnuplot
   gnutls
   go
+  gogcli
   goreleaser
   govc
   gpg
@@ -144,13 +158,20 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #kube-score/tap/kube-score
   kubespy
   lastpass-cli
+  lazydocker
+  lazygit
   lazy-tmux
+  less
   libyang
   lilypond
   lima
   livebook-cli
+  llmfit
   lolcat
   #mplayer
+  #macdown #DEP
+  mactop
+  mcfly
   mole
   mtr
   multipass
@@ -166,8 +187,9 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   oxker
   oxvg
   p7zip
-  #packer
+  hashicorp/tap/packer
   podman
+  podman-compose
   procs
   psgrep
   pstree
@@ -175,8 +197,10 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   pv
   python3
   readline
+  rig
   ripgrep
   rdp/homebrew-openssh-gssapi
+  rtk
   screen
   shottr
   sipsak
@@ -184,14 +208,21 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #speedtest-cli (replaced by ookla's version)
   stern
   stress
+  synergy-core
   task
+  hashicorp/tap/terraform
+  tealdeer
   terraform
   terraform_landscape
   tfenv
   thefuck
-  tldr
+  #tldr # replaced with tealdeer
+  tmux
+  toilet
   tree
   usbtree
+  util-linux
+  uv
   visidata
   #vagrant-completion
   #vault
@@ -199,6 +230,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   watch
   wdiff
   wget
+  wireguard-tools
   wireshark # maybe cask this later? ... homebrew/cask/wireshark
   worktrunk
   wrk
@@ -206,16 +238,19 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #youtube-dl
   yt-dlp
   yq
+  zoxide
 ```
 
 ### Casks
 ```
  $ ▶ sed -n '/BREW_CASKS=(/,/)/p' mac-dev-setup.sh | grep -vE 'BREW_CASKS|)'
   balenaetcher
+  bruno
   calibre
   canario
   caskhub
-  clamxav
+  #clamxav # - disabling never use it (07/26/2025)
+  claude-code
   clipy
   discord
   #docker
@@ -231,22 +266,22 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   hey
   itsycal
   joplin
-  #keybase - was having install/update issues, temp. disabled it (9/9/24)
+  keybase
   macvim
-  nomad
+  milkman
+  #nomad
   openvpn-connect
   pingplotter
-  postman
+  podman-desktop
+  #postman
+  rectangle
   sdformatter
   #slack
-  #DEP spectacle
-  rectangle
   sonic-visualiser
-  synergy
   temurin
   textream
   transmit
-  vagrant
+  #vagrant # - disabling never use it (07/26/2025)
   #virtualbox
   #virtualbox-extension-pack
   visual-studio-code
