@@ -214,6 +214,7 @@ BREW_PKGS=(
   #macdown #DEP
   mactop
   mcfly
+  mole
   mtr
   multipass
   #neofetch
