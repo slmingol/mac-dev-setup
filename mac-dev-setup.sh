@@ -248,6 +248,7 @@ BREW_PKGS=(
   sipsak
   skopeo
   #speedtest-cli (replaced by ookla's version)
+  sshs
   stern
   stress
   synergy-core

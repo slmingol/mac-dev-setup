@@ -206,6 +206,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   sipsak
   skopeo
   #speedtest-cli (replaced by ookla's version)
+  sshs
   stern
   stress
   synergy-core
