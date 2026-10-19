@@ -299,6 +299,7 @@ BREW_CASKS=(
   #docker-toolbox
   fing
   firefox
+  font-fira-code-nerd-font
   font-nexon-bazzi
   font-nexon-lv2-gothic
   font-nexon-maplestory
@@ -348,6 +349,12 @@ for tap in ${BREW_TAPS[@]};do
   PKG=$(echo $tap | cut -d, -f2)
   brew_tap $TAP $PKG
 done
+
+# Install gh extensions
+GH_EXTENSIONS=(
+  dlvhdr/gh-enhance
+)
+for ext in ${GH_EXTENSIONS[@]};do gh extension install $ext 2>/dev/null || true;done
 
 if [ "$MODE" == "install" ]; then
     # Make sure you get all the PATH elements into ~/.bash_profile.

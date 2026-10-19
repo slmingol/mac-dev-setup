@@ -257,6 +257,7 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   #docker-toolbox
   fing
   firefox
+  font-fira-code-nerd-font
   font-nexon-bazzi
   font-nexon-lv2-gothic
   font-nexon-maplestory
@@ -299,6 +300,11 @@ Running `./mac-dev-setup.sh --install` on a fresh install of macOS will result i
   hakky54/crip,crip
   robusta-dev/homebrew-krr,krr
   teamookla/speedtest,speedtest
+```
+
+### GH Extensions
+```
+  dlvhdr/gh-enhance
 ```
 
 # Usage
