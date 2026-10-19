@@ -352,6 +352,7 @@ done
 
 # Install gh extensions
 GH_EXTENSIONS=(
+  dlvhdr/gh-dash
   dlvhdr/gh-enhance
 )
 for ext in ${GH_EXTENSIONS[@]};do gh extension install $ext 2>/dev/null || true;done
