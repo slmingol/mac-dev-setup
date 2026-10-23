@@ -245,6 +245,7 @@ BREW_PKGS=(
   rtk
   screen
   shottr
+  sipp
   sipsak
   skopeo
   #speedtest-cli (replaced by ookla's version)
