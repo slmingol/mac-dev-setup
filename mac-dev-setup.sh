@@ -74,6 +74,7 @@ fi
 BREW_PKGS=(
   #amphetamine
   ansible
+  argocd
   arping
   asciinema
   asciiquarium
@@ -112,8 +113,10 @@ BREW_PKGS=(
   curlie
   datamash
   delta # git-delta
+  deno
   derailed/popeye/popeye
   diffutils
+  direnv
   dive
   dnsglobe
   #docker-credential-helper
@@ -136,6 +139,7 @@ BREW_PKGS=(
   gawk
   #gcal
   gh
+  glab
   #DEP jmainguy/tap/ghreport
   jfrog-cli
   jnv
@@ -189,13 +193,13 @@ BREW_PKGS=(
   karabiner-elements
   kata
   keepassc
-  keycastr
   kind
   kondo
   krew
   kluctl/tap/kluctl
   kubeconform
   kubectl
+  argoproj/tap/kubectl-argo-rollouts
   kubectx
   #kube-score/tap/kube-score
   kubespy
@@ -223,6 +227,7 @@ BREW_PKGS=(
   nmap
   nvm
   nvtop
+  ocm
   openkermit
   openssl
   openshift-cli
@@ -240,15 +245,17 @@ BREW_PKGS=(
   python3
   readline
   rig
+  rclone
   ripgrep
   rdp/homebrew-openssh-gssapi
+  rustup
   rtk
   screen
-  shottr
   sipp
   sipsak
   skopeo
   #speedtest-cli (replaced by ookla's version)
+  socat
   sshs
   stern
   stress
@@ -288,7 +295,9 @@ for pkg in ${BREW_PKGS[@]};do brew_pkg $pkg;done
 
 # Install casks
 BREW_CASKS=(
+  antigravity-cli # replaced gemini-cli (deprecated 2026-12-18)
   balenaetcher
+  bettercapture
   bruno
   calibre
   canario
@@ -296,6 +305,7 @@ BREW_CASKS=(
   #clamxav # - disabling never use it (07/26/2025)
   claude-code
   clipy
+  codex
   discord
   #docker
   #docker-toolbox
@@ -309,11 +319,15 @@ BREW_CASKS=(
   #google-chrome
   headroom
   hey
+  hey-desktop
   itsycal
   joplin
   keybase
-  macvim
-  milkman
+  keycastr
+  losslesscut
+  macvim-app
+  #milkman # - disabled 2026-11-06: Gatekeeper check failed, untrusted tap (warmuuh/milkman)
+  moonlight
   #nomad
   openvpn-connect
   pingplotter
@@ -321,6 +335,7 @@ BREW_CASKS=(
   #postman
   rectangle
   sdformatter
+  shottr
   #slack
   sonic-visualiser
   temurin
